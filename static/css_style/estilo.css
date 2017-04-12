@@ -1,0 +1,156 @@
+.bimage {
+    background: url("http://ccs.upf.edu/wp-content/uploads/cern_02.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+body {
+    /*margin-top: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    */
+   margin-bottom: 50px;
+}
+
+#topnavbar {
+    margin: 0;
+}
+#topnavbar.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*
+.head_space {
+    height: 126px;
+}*/
+
+.banner-dad {
+    margin-bottom: 0px; 
+    position: absolute; 
+   /* z-index: 1030;*/
+}
+
+#banner {
+     background-color: white;
+     margin-top: -20px;
+     padding-bottom: 30px;
+}
+
+.mybanner-img {
+    height: 50px;
+    width: auto;  
+}
+
+#h1shadow {
+    text-shadow: 3px 3px 3px black;
+}
+
+.rborder {
+    border: 5px solid black;
+    border-radius: 5%;
+}
+
+hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#h3shadow {
+    text-shadow: 2px 2px 2px black;
+}
+
+#h3shadow2 {
+    text-shadow: 1px 1px 1px #c1dbee;
+}
+
+.carousel-img {
+    max-height: 350px;
+    width: auto;
+    margin: auto;
+}
+
+.iconDetails {
+   float:right;
+}
+
+.iconDetails2 {
+    float:left; 
+}
+
+.iconDetails3 {
+   /* margin-right: -20px;
+    margin-top: 15px;*/
+    text-align: center;
+}
+
+.lbimage {
+    background-image: url("../img/site/login-background.jpg");
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.accbimage {
+    background-image: url("http://widefon.com/_ld/90/03824646.jpg");
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.icon-img {
+    max-height: 50px;
+    width: auto;
+    margin-left: -20px;
+    float:left;
+}
+
+.icon-img2 {
+    max-height: 35px;
+    width: auto;
+}
+
+.caption-style {
+    height: 100px; 
+    margin-bottom:-20px;
+}
+
+.caption-img {
+    max-height: 200px;
+    width: auto;
+}
+
+.btn-group>.btn {
+    position: relative;
+    float: none;
+}
+
+.right
+{
+    float:right;
+}
+
+.linkstyle {
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 1px #c1dbee;
+}
+
+
+.dzborder {
+    border: 2px solid #bdd7d0;
+    border-radius: 2%;
+    min-height: 220px;
+    max-height: 1000px;
+}
+
+.optiondiv {
+    height: 100px;
+    width: 150px;
+}
+
+.h3color {
+    color: white;
+}

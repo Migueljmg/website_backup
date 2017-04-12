@@ -1,0 +1,66 @@
+19/03/17
+
+Incorporei o quadro interactivo da Union no flask
+
+Problemas:
+Quando faço um offset no canvas, seja no CSS (no "top") ou no próprio html (com o atributo " style="margin-top:170px" "),
+o cursor não escreve na posição onde está
+
+Possíveis soluções:
+Linha 433 UnionDraw.js -> Determine where the user touched screen
+
+Acabei por identificar que isto só acontece quando mexo no scroll. Se não o puxar para baixo desenha bem.
+Por agora não preciso de scroll mas depois para documentos maiores tenho de adaptar para dar com scroll
+
+Próxima tarefa:
+(1)-Tentar inserir imagem de folha de caderno no canvas e desenhar nela
+
+
+20/03/17
+
+Manhã:
+
+Implementei (1)
+
+Problemas:
+
+Qualquer pessoa que aceda ao UnionServer pode começar a desenhar aleatoriamente em real time connosco, tenho
+de corrigir isso. 
+
+O problema do scroll persiste
+
+
+Tarde:
+
+Linha 202 -> verificar se restringindo com if o numOccupant funciona 
+
+Problema do scroll: Linha 433 UnionDraw.js, tentar extrir a posição actual de scroll de um dado user para descontar 
+nesta linha à posição onde está a ser desenhada a linha
+
+Next steps: 
+-Implementar drag and drop de imagens no próprio documento
+-Arranjar forma de tornar o documento editado num pdf (talvez transformação de bytes??)
+-Prototipar a cnstrução do chat e comunicação sonora
+
+
+Noite:
+
+-Tentei fazer deploy do site no heroku mas não está a conectar ao "tryunion.com". Não sei ainda porquê. (solved)
+Já percebi porquê, a ligação ao tryunion.com é vista como não segura e por isso temos de permitir através do ícone que
+aparece ao pé dos favoritos. 
+
+Consegui também restringir um "room" de escrita restrito simplesmente alterando o nome do RoomID para um nome à minha escolha
+
+VER problemas e next steps da tag "Tarde"
+
+
+
+
+
+
+
+
+
+
+
+
